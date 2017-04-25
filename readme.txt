@@ -1,1 +1,28 @@
-啊实打实的按时打算打算大按时打算asdasdasd按时打算
+<?xml version="1.0" encoding="UTF-8"?>
+<pay_interaction>
+	<request>
+		<head>
+			<merdatetime>2017-04-1113:45:00</merdatetime>
+			<servicename>divided</servicename>
+			<ver>1.0</ver>
+		</head>
+		<param>
+			<payaccount>51619300010000026606</payaccount>
+			<payamount>1000</payamount>
+			<recaccountlist>
+				<recaccounts>
+					<recaccount>51619300080000026607</recaccount>
+					<recamount>900</recamount>
+					<rate>1</rate>
+					<payType>1</payType>
+				</recaccounts>
+				<recaccounts>
+					<recaccount>51619300090000026607</recaccount>
+					<recamount>100</recamount>
+					<rate>0.5</rate>
+					<payType>1</payType>
+				</recaccounts>
+			</recaccountlist>
+		</param>
+	</request>
+</pay_interaction>
